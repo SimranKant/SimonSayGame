@@ -73,7 +73,7 @@ let Allbtn=document.querySelectorAll(".box");
 for(btn of Allbtn){
     btn.addEventListener("click",btnPress);
 }
-
+//Set High Score
 function High(){
     if(level>highScore){
         highScore=level;
