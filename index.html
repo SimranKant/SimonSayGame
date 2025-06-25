@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simon Says Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Simon Says</h1>
+  <h2 id="level-title">Click "Start Game" to begin</h2>
+  <button id="start-btn">Start Game</button>
+
+  <div class="rules">
+    <h3>How to Play:</h3>
+    <ul>
+      <li>Watch the sequence of flashes.</li>
+      <li>Repeat the sequence by tapping the color boxes.</li>
+      <li>The sequence grows by one each round.</li>
+      <li>One wrong tap ends the game.</li>
+      <li>Your goal: reach the highest level possible!</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="box red" id="red"></div>
+    <div class="box green" id="green"></div>
+    <div class="box yellow" id="yellow"></div>
+    <div class="box blue" id="blue"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
